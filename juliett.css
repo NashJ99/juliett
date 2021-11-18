@@ -1,0 +1,30 @@
+ /* Since I was not able to change the navbar without it hiding the content in it I decide
+      to change the color of the content instead to make them resemble wooden signs */
+.navbar-brand{
+   border-style: groove;
+   border-bottom-color: #9c5221;
+    background-color: #ca6b2b;
+    -webkit-text-fill-color: #000000;
+}  
+.nav-link{
+   border-style: groove;
+   border-bottom-color: #9c5221;
+   background-color: #ca6b2b;
+   -webkit-text-fill-color: #000000 ;
+}
+.btn{
+   background-color: #ca6b2b;
+   border-bottom-color: #9c5221;
+   -webkit-text-fill-color: #000000 ;
+}
+.card {
+   margin: 0.5em;
+   background-color: #ca6b2b;
+ }
+ .success {
+   outline: 2px solid green;
+ }
+ .error {
+   outline: 2px solid red;
+ }
+ 
