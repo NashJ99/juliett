@@ -18,10 +18,9 @@ $('#btnLoadData').click(function() {
             $("#nameform").val(data.name);
             
             $.each(data, function (key, val) {
-                //step through results
+             
                 console.log(key, val);
-                //get each data item
-                //put it in the right place
+               
                 //$("#dataContainer").append(key + " " + val);
                 $(`#${key}`).val(val);
               
